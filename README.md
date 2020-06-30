@@ -11,10 +11,10 @@ This repository is still in construction.
   - torch 1.1.0
 
 # Code to build models
-  - KrausLayer.py
-  - PSDReluLayer.py
-  - spd2spd_kraus.py (PSD to PSD matrix regression, section 3.1)
-  - completion_kraus.py (PSD matrix completion, section 3.2)
+  - KrausLayer.py : implements Kraus decomposition as a keras layer
+  - PSDReluLayer.py : relu for PSD matrix
+  - spd2spd_kraus.py : PSD to PSD matrix regression, section 3.1
+  - completion_kraus.py : PSD matrix completion, section 3.2
 
 # To generate simulated data
   - make_data_spd2spd.py generates toy data for PSD to PSD matrix regression
