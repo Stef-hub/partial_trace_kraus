@@ -10,7 +10,7 @@ This repository is still in construction.
   - Keras 2.2.4
   - torch 1.1.0
 
-# Code to build (Deep) Partial Trace Regression model:
+# Code to build models:
   - KrausLayer.py
   - PSDReluLayer.py
   - spd2spd_kraus.py (PSD to PSD matrix regression, section 3.1)
@@ -21,7 +21,8 @@ This repository is still in construction.
   - make_data_completion.py generates toy data for PSD matrix completion
   - util.py is required for previous scripts to build kraus model
 
-# To execute the code above, run for example (see the code files for args): 
+# To execute the code
+ * run for example (see the code files for args): 
   - python spd2spd_kraus.py 10000_20_10_5 0 5 2 15 1 0.1
   - python completion_kraus.py 90_20_10_0_4 0 50 2 50 1 0.1
 
