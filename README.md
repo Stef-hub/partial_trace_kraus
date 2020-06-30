@@ -22,7 +22,7 @@ This repository is still in construction.
   - util.py is required for previous scripts to build kraus model
 
 # To execute the code
- * run for example (see the code files for args): 
-  - python spd2spd_kraus.py 10000_20_10_5 0 5 2 15 1 0.1
-  - python completion_kraus.py 90_20_10_0_4 0 50 2 50 1 0.1
+* run for example (see the code files for args): 
+   - python spd2spd_kraus.py 10000_20_10_5 0 5 2 15 1 0.1
+   - python completion_kraus.py 90_20_10_0_4 0 50 2 50 1 0.1
 
