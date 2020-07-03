@@ -2,6 +2,8 @@
 
 This repository contains the code for the paper "Partial Trace Regression and Low-Rank Kraus Decomposition" published at ICML 2020.
 
+https://arxiv.org/pdf/2007.00935.pdf
+ 
 This repository is still in construction.
 
 # Required environment
